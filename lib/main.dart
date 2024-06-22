@@ -40,15 +40,15 @@ class MyCardPage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: CircleAvatar(
-                    radius: 50.0,
-                    backgroundImage: AssetImage('assets/Ani_Björkström.jpg'), // Replace with your image path
+                    radius: 100.0,
+                    backgroundImage: AssetImage('assets/Ani_Björkström.jpg'),
                   ),
                 ),
                 // Title section
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    'Your Name', // Replace with your name
+                    'Ani Björkström',
                     style: GoogleFonts.pacifico(
                       textStyle: TextStyle(
                         fontSize: 24.0,
@@ -61,7 +61,7 @@ class MyCardPage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    'Your Title', // Replace with your title
+                    'Lead Full-Stack Developer', // Replace with your title
                     style: TextStyle(
                       fontSize: 18.0,
                       fontWeight: FontWeight.bold,
@@ -75,15 +75,15 @@ class MyCardPage extends StatelessWidget {
                     children: [
                       InfoRow(
                         icon: Icons.email,
-                        text: 'your.email@example.com', // Replace with your email
+                        text: 'ani.bjorkstrom@gmail.com',
                       ),
                       InfoRow(
                         icon: Icons.phone,
-                        text: '+123 456 7890', // Replace with your phone number
+                        text: '+46 72 454 39 37', // Replace with your phone number
                       ),
                       InfoRow(
                         icon: Icons.location_city,
-                        text: 'Your City, Country', // Replace with your location
+                        text: 'Stockholm, Sweden',
                       ),
                     ],
                   ),
